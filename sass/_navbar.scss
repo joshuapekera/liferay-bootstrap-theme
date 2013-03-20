@@ -1,0 +1,43 @@
+// ==========================================================================
+// Navbar
+// ==========================================================================
+
+.navbar-inverse .navbar-inner {
+  background-color: $navbar-bg;
+  background-image: none;
+  border: none;
+}
+
+.navbar-inverse .nav > li > a {
+  color: $white;
+  text-shadow: none;
+}
+
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle {
+  background-color: $navbar-bg;
+}
+
+.navbar .nav > li > a:hover {
+  color: $white;
+}
+
+.navbar .profile-picture {
+  border-radius: 50%;
+}
+
+// Dropdown
+// ========================================================================== */
+
+.navbar .dropdown-menu {
+  background-color: $dropdown-bg;
+  border: none;
+}
+
+.navbar .dropdown-menu li > a {
+  color: $white;
+}
+
+.navbar .nav > li > .dropdown-menu:before,
+.navbar .nav > li > .dropdown-menu:after {
+  border-bottom-color: $dropdown-bg;
+}

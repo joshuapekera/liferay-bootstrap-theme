@@ -1,0 +1,55 @@
+/* line 5, ../sass/_global.scss */
+body {
+  padding: 60px 0 40px;
+  background: #f2f3f4;
+}
+
+/* line 5, ../sass/_navbar.scss */
+.navbar-inverse .navbar-inner {
+  background-color: #42484c;
+  background-image: none;
+  border: none;
+}
+
+/* line 11, ../sass/_navbar.scss */
+.navbar-inverse .nav > li > a {
+  color: white;
+  text-shadow: none;
+}
+
+/* line 16, ../sass/_navbar.scss */
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle {
+  background-color: #42484c;
+}
+
+/* line 20, ../sass/_navbar.scss */
+.navbar .nav > li > a:hover {
+  color: white;
+}
+
+/* line 24, ../sass/_navbar.scss */
+.navbar .profile-picture {
+  border-radius: 50%;
+}
+
+/* line 31, ../sass/_navbar.scss */
+.navbar .dropdown-menu {
+  background-color: #2e3336;
+  border: none;
+}
+
+/* line 36, ../sass/_navbar.scss */
+.navbar .dropdown-menu li > a {
+  color: white;
+}
+
+/* line 41, ../sass/_navbar.scss */
+.navbar .nav > li > .dropdown-menu:before,
+.navbar .nav > li > .dropdown-menu:after {
+  border-bottom-color: #2e3336;
+}
+
+/* line 5, ../sass/style.scss */
+.icon-gray {
+  background-image: url("../img/glyphicons-halflings-gray.png");
+}
